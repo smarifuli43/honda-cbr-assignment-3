@@ -1,49 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-body{
-      font-family: 'Poppins', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 /* ==============global styles=============== */
-.honda-primary-color{
+.honda-primary-color {
   color: #E76F51;
 }
-.honda-primary-bg{
+
+.honda-primary-bg {
   background-color: #E76F51;
 }
 
 
 /* ==============header=============== */
-header{
+header {
   background-color: #264653;
 }
-.hero{
-  padding-top: 70px ;
-  padding-bottom: 70px ;
+
+.hero {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.hero-heading {
+  font-size: 48px;
+  line-height: 72px;
 }
 
 /* ===============feature bike=============== */
-.feature-bike-subtitle::after{
+.feature-bike-subtitle::after {
   content: "";
   display: block;
   width: 50px;
   height: 1px;
-  background-color:#E76F51;
-   margin: auto;
-   margin-top: 5px;
+  background-color: #E76F51;
+  margin: auto;
+  margin-top: 5px;
 
 }
-.gray-feature-bike{
+
+.gray-feature-bike {
   filter: grayscale(1);
 }
 
 /* =====================Latest news============== */
-.news-btn{
+.news-btn {
   color: #E76F51;
   border: 1px solid #E76F51;
-  padding:8px 15px;
+  padding: 8px 15px;
 }
-.news-btn:hover{
+
+.news-btn:hover {
   background-color: #E76F51;
   color: #ffffff;
+}
+
+/* =====================FAQ=================== */
+.accordion-button::after {
+  margin-left: 20px;
+}
+
+/* ===================service============== */
+.service i {
+  font-size: 45px;
+}
+
+/* ==================contact================== */
+.social-media i {
+  color: rgb(114, 114, 114);
+  transition: all .3s ease;
+}
+
+.social-media i:hover {
+  color: #E76F51;
+}
+
+/* =============footer=================== */
+footer {
+  background-color: #0B0D17;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+
+
+
+
+
+/* ==================responsie============ */
+@media screen and (max-width:768px) {
+  .hero-heading {
+    font-size: 38px;
+  }
+
+
 }
