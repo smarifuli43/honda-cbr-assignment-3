@@ -1,19 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honda</title>
-    <!-- ==================Bootstrap css==================== -->
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <!-- ===================Font Awesome======================= -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honda</title>
+  <!-- ==================Bootstrap css==================== -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- ===================Font Awesome======================= -->
+ <script src="https://kit.fontawesome.com/2dd28d1834.js" crossorigin="anonymous"></script>
+  <!-- ==================stylesheet========================= -->
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- ==================stylesheet========================= -->
-    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+  <header>
+    <!-- ===================navbar====================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link text-white" href="#">Shop</a>
+            </li>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-5 mt-3 mt-lg-2">
+              <a class="nav-link btn d-inline text-white honda-primary-bg px-4" href="#">Login</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <!--=================hero==================  -->
+    <section class="hero container">
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-md-6">
+          <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+          <h1 class=" text-white">Honda CBR 300R</h1>
+          <p class="text-white-50">Honda CBR300R is powered by 286 cc engine. Honda CBR300R gets Disc brakes in the
+            front and rear. The kerb weight of CBR300R is 162 Kg. Honda CBR300R has Tubeless Tyre and Alloy Wheels.</p>
+          <!-- modal btn -->
+          <!-- Button trigger modal -->
+          <button type="button" class="btn text-white honda-primary-bg px-5 py-2" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Purchase</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog  modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R Specifications</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div>
+                    <table class=" table">
+                      <thead>
+                        <tr>
+                          <th>Feature name</th>
+                          <th>Feature value/quantity</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Engine Type:</td>
+                          <td>Liquid-Cooled, Single-Cylinder, 4-Stroke, DOHC</td>
+                        </tr>
+                        <tr>
+                          <td>Front Brake:</td>
+                          <td>Disc</td>
+                        </tr>
+                        <tr>
+                          <td>Rear Brake:</td>
+                          <td>Disc</td>
+                        </tr>
+                        <tr>
+                          <td>Fuel Capacity:</td>
+                          <td>13 L</td>
+                        </tr>
+                        <tr>
+                          <td>Displacement:</td>
+                          <td>286 cc</td>
+                        </tr>
+                        <tr>
+                          <td>No. of Cylinders:</td>
+                          <td>1</td>
+                        </tr>
+
+                        <tr>
+                          <td>Body Type:</td>
+                          <td>Sports Bikes:</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn text-white honda-primary-bg">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mt-5 mt-lg-0">
+          <img src="./images/header-bike.png" alt="" class="img-fluid ">
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- ===================feature bike================== -->
+    <section class=" container my-5">
+      <h2 class=" fs-1 text-center">Featured Bikes 2021</h2>
+      <p class="text-center honda-primary-color feature-bike-subtitle">Best bike collection</p>
+
+      <div class="row g-4 mt-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="./images/feature-bike.jpg" alt="" class="gray-feature-bike img-fluid">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="./images/feature-bike.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="./images/feature-bike.jpg" alt="" class="gray-feature-bike img-fluid">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================Latest news===================== -->
+    <section class="container my-5">
+      <h2 class=" fs-1 text-center pt-5">Latest News</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+        <div class="col">
+          <div class="card h-100 rounded-3 pb-2 p-1 shadow-sm">
+            <img src="./images/bike-1.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2">Ducati XDIAVEL S-73</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum
+                amet faucibus sed id nisi lectus at.</p>
+            </div>
+            <div class="card-footer border-0 bg-transparent">
+              <button class="btn news-btn ">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-3 pb-2 p-1 shadow-sm">
+            <img src="./images/bike-2.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2">Motorcycles & Scooters</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum
+                amet faucibus sed id nisi lectus at.</p>
+            </div>
+            <div class="card-footer border-0 bg-transparent">
+              <button class="btn news-btn ">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-3 pb-2 p-1 shadow-sm">
+            <img src="./images/bike-3.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2">2021 Honda CBR500R</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum
+                amet faucibus sed id nisi lectus at.</p>
+            </div>
+            <div class="card-footer border-0 bg-transparent">
+              <button class="btn news-btn ">Read More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==================Textimonial===================  -->
+    <section class="container my-5 px-md-5">
+      <h2 class=" fs-1 text-center pt-5">Happy <span class=" honda-primary-color"> Clients says</span></h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 g-lg-5 mt-4">
+        <div class="col">
+          <div class="card h-100 rounded-3 pb-2 p-1">
+            <img src="./images/user-1.png" class="card-img-top mx-auto mt-5" alt="..."
+              style="width: 150px; height: 150px;">
+            <div class="card-body text-center">
+              <p class="card-text text-muted ">Slate helps you see how many more days you need to work to reach your financial
+                goal for the month and year.</p>
+                <div>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="far fa-star fs-5 honda-primary-color"></i>
+                </div>
+                <h4 class=" text-info mt-3 fs-6">Jhon Duo</h4>
+                <h4 class="text-dark mt-3 fs-6">Banker</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-3 pb-2 p-1">
+            <img src="./images/user-2.png" class="card-img-top mx-auto mt-5" alt="..."
+              style="width: 150px; height: 150px;">
+            <div class="card-body text-center">
+              <p class="card-text text-muted ">Slate helps you see how many more days you need to work to reach your financial
+                goal for the month and year.</p>
+                <div>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="far fa-star fs-5 honda-primary-color"></i>
+                </div>
+                <h4 class=" text-info mt-3 fs-6">Regina Miles</h4>
+                <h4 class="text-dark mt-3 fs-6">Designer</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-3 pb-2 p-1">
+            <img src="./images/user-3.jpg" class="card-img-top mx-auto mt-5 rounded-circle" alt="..."
+              style="width: 150px; height: 150px;">
+            <div class="card-body text-center">
+              <p class="card-text text-muted ">Slate helps you see how many more days you need to work to reach your financial
+                goal for the month and year.</p>
+                <div>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="fas fa-star fs-5 honda-primary-color"></i>
+                  <i class="far fa-star fs-5 honda-primary-color"></i>
+                </div>
+                <h4 class=" text-info mt-3 fs-6">Regina Miles</h4>
+                <h4 class="text-dark mt-3 fs-6">Banker</h4>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
 
 
 
@@ -27,10 +277,8 @@
 
 
 
-
-
-
-    <!-- =======================bootstrap js====================== -->
-    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>p
+  <!-- =======================bootstrap js====================== -->
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

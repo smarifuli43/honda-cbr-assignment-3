@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+      font-family: 'Poppins', sans-serif;
+}
+
+/* ==============global styles=============== */
+.honda-primary-color{
+  color: #E76F51;
+}
+.honda-primary-bg{
+  background-color: #E76F51;
+}
+
+
+/* ==============header=============== */
+header{
+  background-color: #264653;
+}
+.hero{
+  padding-top: 70px ;
+  padding-bottom: 70px ;
+}
+
+/* ===============feature bike=============== */
+.feature-bike-subtitle::after{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color:#E76F51;
+   margin: auto;
+   margin-top: 5px;
+
+}
+.gray-feature-bike{
+  filter: grayscale(1);
+}
+
+/* =====================Latest news============== */
+.news-btn{
+  color: #E76F51;
+  border: 1px solid #E76F51;
+  padding:8px 15px;
+}
+.news-btn:hover{
+  background-color: #E76F51;
+  color: #ffffff;
+}
